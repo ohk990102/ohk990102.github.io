@@ -1,7 +1,7 @@
 +++
 title = 'About me'
 date = 2024-05-07T23:11:04+09:00
-draft = true
+draft = false
 +++
 
 오호균 (Ho Kyun Oh) aka. ohk990102, ViceVersa  
