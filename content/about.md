@@ -10,7 +10,7 @@ Security Researcher
 Interested in **Security & Machine Learning**
 
 -------------------------------
-### Education
+## Education
 
 * (Mar. 2017 ~ Feb. 2021) B.S. @ Korea University
   * Major: Bachelor of Engineering, Minor: Cyber Defense, Convergence Security
@@ -18,7 +18,7 @@ Interested in **Security & Machine Learning**
   * [AIR LAB](https://air.korea.ac.kr)
 
 -------------------------------
-### CTF
+## CTF
 
 Tastes everything except crypto and web3 :(
 
@@ -35,7 +35,7 @@ Tastes everything except crypto and web3 :(
   * **6th @ DEFCON CTF 2024 Quals (Team Cold Fusion)**
 
 -------------------------------
-### Experience
+## Experience
 
 * (Dec. 2018 ~ Feb. 2019) Internship @ Stealien
   * Projects on Android Security
