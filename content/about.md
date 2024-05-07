@@ -43,7 +43,7 @@ Tastes everything except crypto and web3 :(
   * Research about Prototype pollution detection on Node.js modules (Team NerdJS)
     * [DAPP: automatic detection and analysis of prototype pollution vulnerability in Node.js modules](https://doi.org/10.1007/s10207-020-00537-0)
     * **24 CVEs with CVSS 9.8**
-* (Mar. 2021 ~ Present) Officer @ MND
+* (Jun. 2021 ~ Present) Officer @ MND
   * Research on Cyber Security
 
 -------------------------------
