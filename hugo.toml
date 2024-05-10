@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://blog.hokyun.dev/'
 languageCode = 'en-us'
 title = 'ohk990102'
 theme = "hugo-coder"
