@@ -26,7 +26,7 @@ paginate = 20
   colorScheme = "auto"
   hidecolorschemetoggle = false
 
-  # customCSS = ["css/custom.css"]
+  customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 
@@ -57,3 +57,22 @@ paginate = 20
   name = "About"
   weight = 2
   url = "about/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
+
+[params.giscus]
+  repo = "ohk990102/ohk990102.github.io"
+  repoID = "R_kgDOL4TtRg"
+  category = "Comment"
+  categoryID = "DIC_kwDOL4TtRs4CfSE6"
+  mapping = "pathname"
+  strict = "0"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "top"
+  theme = "preferred_color_scheme"
+  lang = "ko"
+  loading = "lazy"
