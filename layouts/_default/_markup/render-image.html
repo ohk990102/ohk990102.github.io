@@ -1,12 +1,16 @@
-{{- if .IsBlock -}}
-  <figure>
-    <img src="{{ .Destination | safeURL }}"
-      {{- with .Text }} alt="{{ . }}"{{ end -}}
-    >
-    <figcaption>{{ .Text }}</figcaption>
-  </figure>
+{{- $image := .PageInner.Resources.Get .Destination -}}
+{{ $filter := images.Process  "webp" }}
+<figure>
+{{- if $image -}}
+{{ $post_image_webp := $image.RelPermalink}}
+{{ with $image | images.Filter $filter }}
+{{ $post_image_webp = .RelPermalink }}
+{{ end }}
+
+<img loading="lazy" src="{{ $post_image_webp }}" {{ with .Text}} alt="{{ . }}" {{ else }} alt="{{ .Page.Title }}" {{ end }} {{ with .Title}} title="{{ . }}"{{ end }}>
+</picture>
 {{- else -}}
-  <img src="{{ .Destination | safeURL }}"
-    {{- with .Text }} alt="{{ . }}"{{ end -}}
-  >
+  <img loading="lazy"  src="{{ .Destination | safeURL }}" {{ with .Text}} alt="{{ . }}" {{ else }} alt="{{ .Page.Title }}" {{ end }} {{ with .Title}} title="{{ . }}"{{ end }} />
 {{- end -}}
+<figcaption>{{ .Text }}</figcaption>
+</figure>
