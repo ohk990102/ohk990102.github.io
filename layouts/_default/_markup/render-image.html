@@ -1,16 +1,15 @@
 {{- $image := .PageInner.Resources.Get .Destination -}}
-{{ $filter := images.Process  "webp" }}
+{{ $filter := images.Process "webp" }}
 <figure>
-{{- if $image -}}
-{{ $post_image_webp := $image.RelPermalink}}
-{{ with $image | images.Filter $filter }}
-{{ $post_image_webp = .RelPermalink }}
-{{ end }}
-
-<img loading="lazy" src="{{ $post_image_webp }}" {{ with .Text}} alt="{{ . }}" {{ else }} alt="{{ .Page.Title }}" {{ end }} {{ with .Title}} title="{{ . }}"{{ end }}>
-</picture>
-{{- else -}}
-  <img loading="lazy"  src="{{ .Destination | safeURL }}" {{ with .Text}} alt="{{ . }}" {{ else }} alt="{{ .Page.Title }}" {{ end }} {{ with .Title}} title="{{ . }}"{{ end }} />
-{{- end -}}
-<figcaption>{{ .Text }}</figcaption>
+  <picture>
+    {{- if $image -}}
+      {{ $post_image_webp := $image.RelPermalink}}
+      {{ with $image | images.Filter $filter }}
+        {{ $post_image_webp = .RelPermalink }}
+      {{ end }}
+    <source srcset="{{ $post_image_webp }}" type="image/webp" />
+    {{ end }}
+    <img loading="lazy"  src="{{ .Destination | safeURL }}" {{ with .Text}} alt="{{ . }}" {{ else }} alt="{{ .Page.Title }}" {{ end }} {{ with .Title}} title="{{ . }}"{{ end }} />
+  </picture>
+  <figcaption>{{ .Text }}</figcaption>
 </figure>
