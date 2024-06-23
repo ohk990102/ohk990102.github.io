@@ -69,4 +69,4 @@ Interested in Security & Machine Learning & **Everything about computer**
 * ohk990102 at gmail.com
 
 
-[^1]: Mandatory militrary service period
+[^1]: Mandatory military service period
