@@ -49,7 +49,7 @@ Interested in Security & Machine Learning & **Everything about computer**
 ### Training
 
 * NATO CCDCOE Locked Shields 2023
-* 1st @ Netherland DDC CyberNet 2023
+* 1st @ Netherland DCC CyberNet 2023
 
 -------------------------------
 ## Experience
