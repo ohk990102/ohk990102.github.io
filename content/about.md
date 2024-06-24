@@ -40,6 +40,7 @@ Interested in Security & Machine Learning & **Everything about computer**
 * 11th @ zer0pts 2023 (Team Call of Duty)
 * **6th @ DEFCON CTF 2024 Quals (Team Cold Fusion)** - [Writeup]({{< ref "/posts/1-defcon-2024-quals/index.md" >}})
 * 21st @ CodeGate 2024 Quals General Division (Team 원석이만믿고간다) - [Writeup]({{< ref "/posts/2-codegate-2024-quals/index.md" >}})
+* 18th @ Google CTF 2024 Quals (Team Cold Fusion) - [Writeup]({{< ref "/posts/3-google-ctf-2024-quals/index.md" >}})
 
 ### Contest
 
