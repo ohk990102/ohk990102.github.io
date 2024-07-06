@@ -26,7 +26,7 @@ paginate = 20
   colorScheme = "auto"
   hidecolorschemetoggle = false
 
-  customCSS = ["css/custom.css"]
+  customCSS = ["css/font.css", "css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 
