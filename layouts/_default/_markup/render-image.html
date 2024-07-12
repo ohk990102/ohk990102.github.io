@@ -11,5 +11,5 @@
     {{ end }}
     <img loading="lazy"  src="{{ .Destination | safeURL }}" {{ with .Text}} alt="{{ . }}" {{ else }} alt="{{ .Page.Title }}" {{ end }} {{ with .Title}} title="{{ . }}"{{ end }} >
   </picture>
-  <figcaption>{{ .Text }}</figcaption>
+  <figcaption><p>{{ .Text }}</p></figcaption>
 </figure>
