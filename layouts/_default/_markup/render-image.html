@@ -7,9 +7,9 @@
       {{ with $image | images.Filter $filter }}
         {{ $post_image_webp = .RelPermalink }}
       {{ end }}
-    <source srcset="{{ $post_image_webp }}" type="image/webp" />
+    <source srcset="{{ $post_image_webp }}" type="image/webp" >
     {{ end }}
-    <img loading="lazy"  src="{{ .Destination | safeURL }}" {{ with .Text}} alt="{{ . }}" {{ else }} alt="{{ .Page.Title }}" {{ end }} {{ with .Title}} title="{{ . }}"{{ end }} />
+    <img loading="lazy"  src="{{ .Destination | safeURL }}" {{ with .Text}} alt="{{ . }}" {{ else }} alt="{{ .Page.Title }}" {{ end }} {{ with .Title}} title="{{ . }}"{{ end }} >
   </picture>
   <figcaption>{{ .Text }}</figcaption>
 </figure>

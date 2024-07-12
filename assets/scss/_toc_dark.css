@@ -1,0 +1,19 @@
+@mixin toc_dark {
+    .toc {
+        background-color: $bg-color-dark;
+    }
+
+    .toc-toggle {
+        background-color: $bg-color-dark;
+    }
+}
+  
+body.colorscheme-dark {
+    @include toc_dark();
+}
+
+body.colorscheme-auto {
+    @media (prefers-color-scheme: dark) {
+        @include toc_dark();
+    }
+}
