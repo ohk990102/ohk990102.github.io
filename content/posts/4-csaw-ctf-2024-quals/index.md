@@ -240,9 +240,9 @@ Content-Disposition: form-data; name="a[b]"
 --boundary--
 ```
 
-To resolve this, we can inject `"` to escape double-quote (just like SQLi) and make filename field on content-disposition, making the part recognized as file.
+To resolve this, we can inject `"` to escape double-quote (just like SQLi) and make filename field on content-disposition, making the part recognized as file.[^1]
 
-![needle just concats field name without any escaping[^1]](needle_module_code.png)
+![needle just concats field name without any escaping](needle_module_code.png)
 
 ```python
 import requests
