@@ -47,7 +47,7 @@ Interested in Security & Machine Learning & **Everything about computer**
 ### Contest
 
 * Silver @ Korea Olympiad in Informatics Highschool Division 2016
-* 1st @ Cybersecurity AI & Bigdata Challenge 2023 Track A (Team 원석이만믿고간다) - [Code](https://github.com/BluberryPie/ai-security-challenge)
+* 1st @ Cybersecurity AI & Bigdata Challenge 2023 Track A (Team 원석이만믿고간다)
 
 ### Training
 
