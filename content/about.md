@@ -20,8 +20,8 @@ Interested in Security & Machine Learning & **Everything about computer**
 -------------------------------
 ## Team
 * (2017 ~ 2021) [Cykor](https://ctftime.org/team/369)
-* (2023 ~ Present) [Call of Duty](https://ctftime.org/team/233492)
-* (2024 ~ Present) Cold Fusion (Merger of `Call of Duty`, `Cykor`, `CatFlag`, `PLUS`, `Haim`, `Definit`, ...)
+* (2023 ~ 2024) [Call of Duty](https://ctftime.org/team/233492)
+* (2024) Cold Fusion (Merger of `Call of Duty`, `Cykor`, `CatFlag`, `PLUS`, `Haim`, `Definit`, ...)
 
 -------------------------------
 ## Award
@@ -42,8 +42,7 @@ Interested in Security & Machine Learning & **Everything about computer**
 * 21st @ CodeGate 2024 Quals General Division (Team 원석이만믿고간다) - [Writeup]({{< ref "/posts/2-codegate-2024-quals/index.md" >}})
 * 18th @ Google CTF 2024 Quals (Team Cold Fusion) - [Writeup]({{< ref "/posts/3-google-ctf-2024-quals/index.md" >}})
 * **9th @ DEFCON CTF 2024 Finals (Team Cold Fusion)**
-* 1st @ WhiteHat 2024 Quals (Team 이공김밥)
-* **1st @ WhiteHat 2024 Finals (Team 이공김밥)**
+* **1st @ WhiteHat 2024 Quals & Finals (Team 이공김밥)**
 
 ### Contest
 
