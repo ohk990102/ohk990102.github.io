@@ -5,7 +5,8 @@ theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
-paginate = 20
+[pagination]
+pagerSize = 20
 
 [params]
   author = "ohk990102"
@@ -48,6 +49,11 @@ paginate = 20
   icon = "fa-brands fa-x-twitter fa-2x"
   weight = 3
   url = "https://twitter.com/ohk990102/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 4
+  url = "https://www.linkedin.com/in/hokyun-oh-8460a482/"
 
 [[menu.main]]
   name = "Blog"
