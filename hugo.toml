@@ -13,7 +13,7 @@ pagerSize = 20
   info = "Security Researcher"
   description = "ohk990102's blog"
   keywords = "blog,developer,personal"
-  # avatarurl = "images/avatar.jpg"
+  avatarurl = "profile_image.jpeg"
   #gravatar = "john.doe@example.com"
 
   # faviconSVG = "/img/favicon.svg"
