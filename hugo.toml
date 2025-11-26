@@ -56,7 +56,7 @@ pagerSize = 20
   url = "https://www.linkedin.com/in/hokyun-oh-8460a482/"
 
 [[menu.main]]
-  name = "Blog"
+  name = "Posts"
   weight = 1
   url  = "posts/"
 [[menu.main]]
