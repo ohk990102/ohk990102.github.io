@@ -49,6 +49,7 @@ Interested in Security & Machine Learning & **Everything about computer**
 - **9th @ DEFCON CTF 2024 Finals (Team Cold Fusion)**
 - **1st @ WhiteHat 2024 Quals & Finals (Team 이공김밥)**
 - **1st @ WhiteHat 2025 Finals (Team 이공김밥)**
+- **1st @ CCE 2026 Finals Public Organization Division (Team ctf초보)**
 
 ### Contest
 
